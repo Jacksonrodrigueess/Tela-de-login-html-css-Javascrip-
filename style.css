@@ -1,0 +1,87 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(143, 0, 143);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    
+}
+
+
+.login-form {
+    background: white;
+    width: 300px;
+    margin:  auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    box-shadow: 0px 1px 14px -3px #535b63;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.login-form h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd!important;
+    margin-bottom: 15px;
+    outline: white;
+    -webkit-box-shadow: 0 0 0 30px rgb(255, 255, 255) inset;
+    
+}
+.section{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.senha{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#mostrar1{
+    height: 47px;
+    width: 21%;
+    align-items: center;
+    background:transparent;
+    margin-left: -66px;
+    border: none;
+    transition: .2s;
+    opacity: .5;
+    
+}
+
+
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+
